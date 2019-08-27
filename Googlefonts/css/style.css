@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+.heading h1 {
+	font-size: 30px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'EB Garamond', serif;
+}
+.paragraph p {
+	font-family: 'Montserrat', sans-serif;
+}
+.paragraphTwo p {
+font-family: 'Poiret One', cursive;
+}

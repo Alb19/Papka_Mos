@@ -1,0 +1,17 @@
+@font-face {
+	src: url(../font/TT Travels-Light.otf);
+	font-family: 'TT Travels-Light';
+}
+
+.heading h1 {
+	font-size: 30px;
+	font-style: italic;
+	font-family: 'TT Travels-Light';	
+}
+
+.paragraph p {
+font-family: 'TT Travels-Light';}
+
+.paragraphTwo p {
+font-family: 'TT Travels-Light';
+}
