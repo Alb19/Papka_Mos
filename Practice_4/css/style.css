@@ -1,0 +1,55 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Hind+Madurai&display=swap');
+.header-container h1 {
+	height: 60px;
+	color: white;
+	background-color: black;
+	font-size: 14px;
+	text-align: left;
+	line-height: 60px;
+	text-transform: lowercase;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.image {
+	height: 400px;
+	background-color: #fff12d;
+	background-image: url(../img/image.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center, center;
+}
+.menu-container li {
+	height: 50px;
+	color: white;
+	background-color: black;
+	font-size: 14px;
+	text-align: left;
+	line-height: 50px;
+	text-transform: lowercase;
+	font-family: 'Archivo Black', sans-serif;
+}
+.heading {
+	color: black;
+	font-size: 30px;
+	font-weight: bolder;
+	line-height: 80px;
+	text-transform: lowercase;
+	font-family: 'Archivo Black', sans-serif;
+}
+.text {
+	color: black;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: 'Hind Madurai', sans-serif;
+}
+.footer-conteiner {
+	height: 60px;
+	color: white;
+	background-color: black;
+	font-size: 14px;
+	line-height: 60px;
+	text-transform: lowercase;
+	font-family: 'Archivo Black', sans-serif;
+}
+
