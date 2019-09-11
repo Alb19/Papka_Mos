@@ -1,0 +1,84 @@
+@import url(reset.css);
+.page {
+	height: 1000px;
+}
+h1 {
+	width: 1920px;
+	height: 80px;
+	display: block;
+	color: white;
+	background-color:#808000;
+	text-transform: uppercase;
+	font-weight: bolder;
+	line-height: 80px;
+	position: fixed;
+	z-index: 1;
+	padding-left: 10px;
+}
+.main-text {
+	padding-top: 20px;
+}
+.heading-one {
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.section-one {
+	width: 250px;
+	height: 550px;
+	color: #808000;
+	display: inline-block;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 35px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.heading-two {
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.section-two {
+	width: 250px;
+	height: 550px;
+	color: #808000;
+	display: inline-block;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 35px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.heading-three {
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.section-three {
+	width: 250px;
+	height: 550px;
+	color: #808000;
+	display: inline-block;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 35px;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+.copyright {
+	width: 1920px;
+	height: 80px;
+	display: block;
+	color: white;
+	background-color:#808000;
+	line-height: 80px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	position: fixed;
+	bottom: 0px;
+	padding-left: 10px;
+}
