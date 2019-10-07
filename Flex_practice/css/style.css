@@ -1,0 +1,137 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+.header-container {
+	width: 1440px;
+	height: 100px;
+	line-height: 100px;
+	display: flex;
+    flex-direction: row;
+	color: black;
+	background-color: white;
+	font-family: 'Poiret One', sans-serif;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 15px;
+	letter-spacing: 1px;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	padding-left: 20px;
+}
+.menu-container {
+	display: flex;
+	margin-left: 1040px;
+}
+a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+.image {
+	height: 490px;
+	width: 1450px;
+	background-image: url(../img/image.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.section-one{
+	width: 700px;
+	height: 70px;
+    display: block;
+    margin: 80px auto 100px;
+    color: black;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+.section-two {
+	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: black;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+}
+.item-one{
+	width: 240px;
+	margin: 0px 50px;
+	padding: 20px;
+	background-color: white;
+	/*border: 1px solid grey;*/
+}
+.image-one {
+	height: 220px;
+	width: 240px;
+	background-image: url(../img/image1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.item-two{
+	width: 240px;
+	margin: 0px 50px;
+	padding: 20px;
+	/*border: 1px solid grey;*/
+}
+.image-two {
+	height: 220px;
+	width: 240px;
+	background-image: url(../img/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.item-three{
+	width: 240px;
+	margin: 0px 50px;
+	padding: 20px;
+	/*border: 1px solid grey;*/
+}
+.image-three {
+	height: 220px;
+	width: 240px;
+	background-image: url(../img/image3.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.section-three {
+	width: 1000px;
+	margin: 80px auto 120px;
+    padding: 20px;
+    display: inline-block;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+    /*border: 1px solid grey;*/
+}
+.image-writer {
+	width: 650px;
+	height: 85px;
+	padding: 40px 20px;
+	background-image: url(../img/image4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.quote-text{
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+	padding-left: 40px;
+	text-align: justify;
+	letter-spacing: .5px;
+	line-height: 21px;
+}
+.footer {
+	width: 1440px;
+	height: 80px;
+	color: black;
+	background-color: white;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	line-height: 80px;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	padding-left: 10px;
+}
