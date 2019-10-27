@@ -1,0 +1,81 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Exo+2|Pattaya&display=swap');
+html {
+	background-color: #F5F5F5;
+}
+.header {
+	width: 100vw;
+	height: 10vh;
+	display: block;
+	color: #F5F5F5;
+	background-color: #2F4F4F;
+	text-transform: uppercase;
+	font-weight: bolder;
+	line-height: 10vh;
+	font-family: 'Pattaya', sans-serif;
+	letter-spacing: 3px;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+h1:hover {
+	color: #FF00FF;
+}
+.content-container {
+	width: 80vw;
+	min-height: 500px;
+	margin: 5vh auto 5vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	color:#2F4F4F;
+	font-family: 'Anonymous Pro', sans-serif;
+}
+.column {
+	width: calc((100% - 40px)/3);
+	box-shadow: 0px 0px 10px #2F4F4F;
+	}
+p {
+	padding: 20px;
+}
+.image-two {
+	background-image: url(../img/waffles.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.image-one {
+	background-image: url(../img/cookies.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.image-three {
+	background-image: url(../img/chocolate.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+h2 {
+	padding: 20px 0 10px 20px;
+	font-size: 1.3rem;
+	font-weight: bolder;
+}
+a {
+	width: 100vw;
+	height: 10vh;
+	display: block;
+	background-color: #2F4F4F;
+	line-height: 10vh;
+    padding-left: 30px;
+	font-family: 'Pattaya', sans-serif;
+	letter-spacing: 3px;
+	font-size: 1.3rem;
+	color: #F5F5F5;
+	text-decoration: none;
+	/*font-weight: bolder;*/
+	/*position: fixed;
+	bottom: 0px;*/
+}
+a:hover {
+	color: #FF00FF;
+}
