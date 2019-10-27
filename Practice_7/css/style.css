@@ -1,10 +1,24 @@
 @import url(reset.css);
 	@keyframes rotate {
-			from {
-				transform: 0deg;  
+			0% {
+				top: 50%;
+				left: 50%;
 		}
-		to {
-			transform: 180deg;
+		25% {
+			top: 100%;
+			left: 50%;
+		}
+		50% {
+			top: 100%;
+			left: 25%;
+		}
+		75% {
+			top: 50%;
+			left: 25%;
+		}
+		100% {
+			top: 50%;
+			left: 50%;
 		}
 		}
 		.page {
@@ -35,5 +49,6 @@
 			left: 50%;
 			margin-top: -200px;
 			margin-left: -200px;
-			animation: rotate 3s linear .5s infinite alternate;
-		}
+			animation: rotate 3s linear .5s infinite;
+			}
+
