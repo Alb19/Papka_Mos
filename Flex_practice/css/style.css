@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Poiret+One&display=swap');
 
 .header-container {
-	height: 80px;
+	height: 10vh;
     width: 100%;
-	line-height: 80px;
+	line-height: 10vh;
 	display: flex;
     flex-direction: row;
 	color: black;
@@ -14,7 +14,7 @@
 	font-weight: bolder;
 	font-size: 15px;
 	letter-spacing: 1px;
-	position: fixed;
+	/*position: fixed;*/
 	padding-left: 20px;
 	justify-content: space-between;
 }
@@ -24,19 +24,25 @@
 }
 li {
 	padding-right: 20px;
+	font-size: 16px;
 }
 a {
 	text-decoration: none;
-	color:  black;
+	color: black;
+}
+p {
+	font-size: 16px;
+
 }
 
 .image {
-	height: 510px;
+	height: 507px;
 	background-image: url(../img/Image.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin: 0px auto;
 	background-position: center;
+	display: block;
 }
 .section-one{
 	width: 1150px;
@@ -50,9 +56,9 @@ a {
 }
 .main-text {
 	width: 1150px;
-	font-size: 150px;
+	font-size: 152px;
 	letter-spacing: 12px;
-	line-height: 158px;
+	line-height: 160px;
 	padding-bottom: 0px;
 	font-weight: bolder;
 	color: #3CB371;
@@ -146,7 +152,7 @@ h4 {
 }
 .section-three {
 	width: 1050px;
-	margin: 0px auto 150px;
+	margin: 0px auto 100px;
     padding: 20px;
     display: inline-block;
 	display: flex;
@@ -174,7 +180,7 @@ h4 {
 	color:black;
 }
 .footer {
-	height: 80px;
+	height: 10vh;
 	width: 100%;
 	color: black;
 	background-color: lightgrey;
@@ -183,9 +189,9 @@ h4 {
 	letter-spacing: 1px;
 	font-weight: bolder;
 	text-transform: uppercase;
-	line-height: 80px;
+	line-height: 10vh;
 	display: block;
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0px;
 	padding-left: 10px;
 }
