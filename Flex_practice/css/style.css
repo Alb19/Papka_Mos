@@ -3,7 +3,7 @@
 
 .header-container {
 	height: 10vh;
-    width: 100%;
+    width: 100vw;
 	line-height: 10vh;
 	display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@
 	font-weight: bolder;
 	font-size: 15px;
 	letter-spacing: 1px;
-	/*position: fixed;*/
+	position: fixed;
 	padding-left: 20px;
 	justify-content: space-between;
 }
@@ -36,7 +36,7 @@ p {
 }
 
 .image {
-	height: 507px;
+	height: 510px;
 	background-image: url(../img/Image.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -44,6 +44,7 @@ p {
 	background-position: center;
 	display: block;
 }
+
 .section-one{
 	width: 1150px;
 	height: 150px;
@@ -107,6 +108,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+
 h2 {
 	padding-bottom: 15px;
 	color: #3CB371;
@@ -181,7 +183,7 @@ h4 {
 }
 .footer {
 	height: 10vh;
-	width: 100%;
+	width: 100vw;
 	color: black;
 	background-color: lightgrey;
 	font-family: 'Poiret One', sans-serif;
