@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Poiret+One&display=swap');
 
 .header-container {
-	height: 10vh;
-    width: 100vw;
-	line-height: 10vh;
+	height: 80px;
+    width: 100%;
+	line-height: 80px;
 	display: flex;
     flex-direction: row;
 	color: black;
@@ -182,8 +182,8 @@ h4 {
 	color:black;
 }
 .footer {
-	height: 10vh;
-	width: 100vw;
+	height: 80px;
+	width: 100%;
 	color: black;
 	background-color: lightgrey;
 	font-family: 'Poiret One', sans-serif;
@@ -191,7 +191,7 @@ h4 {
 	letter-spacing: 1px;
 	font-weight: bolder;
 	text-transform: uppercase;
-	line-height: 10vh;
+	line-height: 80px;
 	display: block;
 	/*position: fixed;*/
 	bottom: 0px;
