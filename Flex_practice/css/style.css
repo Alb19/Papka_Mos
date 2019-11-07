@@ -36,8 +36,8 @@ p {
 }
 
 .image {
-	height: 510px;
-	background-image: url(../img/Image.jpg);
+	height: 641px;
+	background-image: url(../img/image.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin: 0px auto;
