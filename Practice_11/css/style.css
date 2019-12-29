@@ -1,0 +1,104 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+/*header {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border: 1px solid black;
+	color: black;
+
+}*/
+
+
+.content-container {
+	width: 70%;
+	height: 7vh;
+	font-family: Montserrat;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	display: block;
+	margin: 8vh auto 5vh;
+	background-color: yellow;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+form {
+	width: 80%;
+	margin: 50px auto;
+}
+input, textarea, button {
+	height: 7vh;
+	width: 100%;
+	display: block;
+	border: 1px solid black;
+	color: lightgrey;
+	font-size: 2.5rem;
+}
+button[type="submit"] {
+	height: 7vh;
+	margin: 1rem 0;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	/*border: 3px solid lightgreen;*/
+}
+textarea {
+	height: 11vh;
+	width: 100%;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+label {
+	line-height: 2.5rem;
+	margin: auto;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+span {
+	display: inline;
+	width: 300px;
+	line-height: 2rem;
+
+}
+input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	vertical-align: middle;
+	line-height: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+	form {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.column-one {
+		width: 30%;
+	}
+	.content-container {
+		font-size: 4rem;
+		line-height: 4rem;
+		align-self: center;
+		align-items: center;
+		display: flex;
+		height: 70%;
+		width: 100%;
+	}
+
+	.column-two {
+		width: 50%;
+		font-size: 1.5rem;
+	}
+	input, textarea, button {
+		font-size: 1.5rem;
+	}
+
+}
