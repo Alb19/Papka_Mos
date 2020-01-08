@@ -54,9 +54,10 @@ p {
 	padding-bottom: 100%;
 }
 h2 {
-	padding: 20px 0 10px 20px;
-	font-size: 1.3rem;
+	padding: 20px 0 0px 20px;
+	font-size: 1.2rem;
 	font-weight: bolder;
+	text-transform: uppercase;
 }
 a {
 	width: 100vw;
@@ -72,4 +73,37 @@ a {
 	text-decoration: none;
 	
 }
+
+@media screen and (max-width: 1040px) {
+	.content-container {
+		display: block;
+		font-size: 2.5rem;
+	}
+	.column {
+		width: 100%;
+		margin-bottom: 4vh;
+	}
+	h2 {
+		font-size: 2.5rem;
+		padding: 40px 0 20px 20px;
+
+	}
+	.header {
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	font-size: 2.5rem;
+}
+a{
+	font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+	.header, a  {
+		height: 15vh;
+		line-height: 15vh;
+	}
+}
+
 

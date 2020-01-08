@@ -151,3 +151,13 @@ a {
 	}
 }
 
+@media screen and (max-width: 667px) and (orientation: landscape) {
+	.header {
+	height: 16vh;
+	line-height: 16vh;
+	}
+	.footer{
+	height: 16vh;
+	line-height: 16vh;
+	}
+}

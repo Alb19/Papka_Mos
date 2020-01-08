@@ -1,15 +1,13 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body {
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
-}
+
 header {
 	width: 100%;
-	height: 10vh;
+	height: 8vh;
+	line-height: 8vh;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 3vw;
-	/*padding-right: 3vw;*/
 	border: 1px solid black;
 	color: black;
 	align-items: center;
@@ -17,7 +15,7 @@ header {
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 }
-.menu-container, p, a{
+.menu-container, p, li {
 	display: flex;
 	padding-right: 3vw;
 	justify-content: space-between;
@@ -28,13 +26,13 @@ a {
 	color: black;
 }
 .content-container {
-	width: 70%;
+	width: 80%;
 	height: 7vh;
-	font-family: Montserrat;
+	font-family: Montserrat, sans-serif;
 	font-size: 2.5rem;
 	line-height: 2.5rem;
 	display: block;
-	margin: 5vh auto 5vh;
+	margin: 6vh auto 3vh;
 	background-color: yellow;
 	justify-content: center;
 	display: flex; 
@@ -42,11 +40,11 @@ a {
 	box-sizing: border-box;
 }
 form {
-	width: 80%;
+	width: 70%;
 	margin: 50px auto;
 }
-input, textarea, button {
-	height: 7vh;
+input {
+	height: 5vh;
 	width: 100%;
 	display: block;
 	border: 1px solid black;
@@ -55,21 +53,30 @@ input, textarea, button {
 	padding-left: 0.5rem;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
+
 button[type="submit"] {
+	width: 100%;
 	height: 7vh;
-	margin: 1rem 0;
+	font-size: 1.5rem;
+	display: block;
+	margin: 2vh auto;
 	background-color: black;
+	border: 1px solid black;
 	color: white;
 	font-weight: bolder;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 textarea {
-	height: 11vh;
+	height: 10vh;
 	width: 100%;
+	border: 1px solid black;
+	color: black;
+	font-size: 2.5rem;
+	padding-left: 0.5rem;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 label {
-	line-height: 3rem;
+	line-height: 2rem;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 
 }
@@ -77,6 +84,10 @@ span {
 	display: inline;
 	padding-left: 1vw;
 	padding-top: 3vh;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	font-size: 0.9rem;
+	line-height: 1rem;
 }
 
 input[type="checkbox"] {
@@ -88,8 +99,8 @@ input[type="checkbox"] {
 
 .footer-container {
 	width: 100%;
-	height: 10vh;
-	line-height: 10vh;
+	height: 8vh;
+	line-height: 8vh;
 	display: flex;
 	display: inline-block;
 	justify-content: space-between;
@@ -99,82 +110,87 @@ input[type="checkbox"] {
 	align-items: center;
 	font-size: 1rem;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	margin: 5vh 0 0 0;
-	text-transform: uppercase;
+	position: fixed;
+	bottom: 0;
 }
 
 
 @media screen and (min-width: 1040px) {
-	input, textarea {
-		font-size: 1.5rem;
-	}
-	form {
-		width: 40%;
-	}
-	.content-container {
-		font-size: 2rem;
-		line-height: 2rem;
-		width: 80%;
-		height: 7vh;
-	}
 
-	button[type="submit"] {
-	height: 10vh;
-	}
-	}
-
-@media screen and (max-height: 1024px) {
-
-	input, textarea, button {
-		height: 10vh;
-	}
-	textarea {
-	height: 15vh;
-	}
+input, textarea {
+	font-size: 1.2rem;
+}
+form {
+	width: 40%;
+}
+.content-container {
+	font-size: 2rem;
+	line-height: 2rem;
+	margin: 3vh auto 3vh;
+}
 button[type="submit"] {
-	height: 10vh;
-	}
-	}
+	margin: 1vh auto;
+}
+}
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
 
-	label, span {
-		font-size: 2.5rem;
-		line-height: 5rem;
-	} 
-	input[type="checkbox"] {
+label {
+	font-size: 2.5rem;
+	line-height: 5rem;
+} 
+span {
+	font-size: 1.7rem;
+	line-height: 1.7rem;
+}
+input[type="checkbox"] {
 	width: 8%;
 }
+button[type="submit"] {
+	font-size: 2.5rem;
+}
+
 header {
-	    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 .footer-container {
-	    font-size: 2rem;
+	font-size: 2rem;
+}
 }
 
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+
+input {
+	height: 8vh;
+	font-size: 1.5rem;
 }
-
-@media screen and (max-width: 980px) and (orientation: landscape) {
-	input, textarea {
-		font-size: 1.5rem;
-	}
-
-	label, span {
-		font-size: 1.5rem;
-		line-height: 3rem;
-	} 
-	input[type="checkbox"] {
+textarea {
+	height: 15vh;
+	font-size: 1.5rem;
+}
+label, span {
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+} 
+input[type="checkbox"] {
 	width: 5%;
 }
+button[type="submit"] {
+	height: 10vh;
+	margin: 3vh auto 3vh;
+}
 header {
-	    font-size: 2rem;
-	    
+	font-size: 2rem;
+	height: 10vh;
+	line-height: 10vh;
 }
 .footer-container {
-	    font-size: 1.5rem;
-	   
+	font-size: 1.5rem;
+	height: 10vh;
+	line-height: 10vh;
+	position: static;
 }
-
+}
 
 
 

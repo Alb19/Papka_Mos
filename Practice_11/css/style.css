@@ -1,104 +1,275 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-family: Montserrat, sans-serif;
 }
-/*header {
+.menu {
 	width: 100%;
-	height: 10vh;
+	height: 8vh;
+	line-height: 8vh;
 	display: flex;
 	justify-content: space-between;
-	padding-left: 1vw;
-	padding-right: 1vw;
-	border: 1px solid black;
-	color: black;
+	padding-right: 4vw;
+	border:1px solid transparent;
+	border-bottom:1px solid lightgrey;
+	color: #000066;
+	font-size: 2rem;
+	margin-bottom: 0.2vh;
+	align-items: bottom;
+}
 
-}*/
-
-
-.content-container {
-	width: 70%;
-	height: 7vh;
-	font-family: Montserrat;
-	font-size: 2.5rem;
-	line-height: 2.5rem;
+.image {
+	height: auto;
+	width: 80vw;
+	background-image: url(../img/wall.jpg);
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	background-size: contain;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.logo {
+	padding-left: 3vw;
+}
+.main-text {
+	width: 90%;
+	height: 3vh;
+	font-family: Montserrat, sans-serif;
+	font-size: 3rem;
+	line-height: 3.5rem;
 	display: block;
-	margin: 8vh auto 5vh;
-	background-color: yellow;
+	margin: 0.1vh auto 1vh;
 	justify-content: center;
 	display: flex;
 	align-items: center;
-
+	padding-bottom: 1vh;
+	color: #000066;
+	font-weight: bolder;
 }
+
+.second-text {
+	font-size: 2.5rem;
+	line-height: 3vh;
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 1vh;
+	color: #000066;
+	text-align: center;
+}
+
 form {
 	width: 80%;
-	margin: 50px auto;
+	margin: auto;
 }
-input, textarea, button {
+
+input {
 	height: 7vh;
 	width: 100%;
 	display: block;
-	border: 1px solid black;
-	color: lightgrey;
+	border: 1px solid transparent;
+	border-bottom: 3px solid #000066;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	color: #000066;
 	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 1vh;
 }
+
 button[type="submit"] {
 	height: 7vh;
-	margin: 1rem 0;
-	background-color: black;
+	width: 100%;
+	display: block;
+	margin: 1vh 0 0.5vh;
+	font-size: 2.5rem;
+	text-align: center;
+	background-color:  #000066;
 	color: white;
 	font-weight: bolder;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	/*border: 3px solid lightgreen;*/
+	border: none;
+	outline: none;
+	border:2px solid #000066;
 }
-textarea {
-	height: 11vh;
-	width: 100%;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
-}
+
 label {
 	line-height: 2.5rem;
 	margin: auto;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	color: #000066;
 }
 span {
 	display: inline;
-	width: 300px;
-	line-height: 2rem;
-
+	/*line-height: 3rem;*/
+	font-size: 2rem;
+	padding-left: 1vw;
+	color: grey;
+	text-decoration: underline;
 }
+
 input[type="checkbox"] {
 	display: inline-block;
-	width: 20px;
+	width: 4.5vw;
 	vertical-align: middle;
-	line-height: 2rem;
+	line-height: 3rem;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
-@media screen and (min-width: 1000px) {
-	form {
-		display: flex;
-		justify-content: space-between;
-	}
+.footer-container {
+	width: 100%;
+	height: 8vh;
+	line-height: 8vh;
+	padding-left: 3vw;
+	border: 1px solid transparent;
+	border-top: 1px solid lightgrey;
+	color: #000066;
+	align-items: center;
+	font-size: 2.5rem;
+	margin-top: 7vh;
+}
 
+.menu-container, p, a{
+	display: flex;
+	padding-right: 3vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000066;
+	align-self: center;
+}
+
+@media screen and (min-width: 1040px) {
+
+header {
+	margin-bottom: 8vh;
+}
+
+.menu {
+	font-size: 1.5rem;
+}
+	
+.footer-container {
+	font-size: 1rem;
+	margin-top: 8vh;
+	position: fixed;
+	bottom: 0;
+}
+
+.columns {
+	width: 80%;
+	height: auto;
+	background-color: lightgrey;
+	display: inline-block;
+	display: flex;
+	margin:auto;
+}
+
+.column-one {
+	width: 50%;
+	height:30%;
+	align-self: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 2vw;
+	margin-left: 1.5vw;
+}
+.image {
+	height: 50%;
+	width: 80%;
+}
+
+.column-two {
+	width: 35%;
+	height: 45vh;
+	font-size: 1.5rem;
+	padding-right: 4vw;
+	margin-left: 1vw;
+	margin-top: 10.5vh;
+}
+
+.main-text {
+	font-size: 2rem;
+	height: 3vh;
+	width: 100%;
+	margin-top: 5vh;
+}
+
+.second-text {
+	font-size: 1.1rem;
+	margin-bottom: 3vh;
+	margin-top: 2vh;
+}
+
+input {
+	height: 5vh;
+	background-color: lightgrey;
+	font-size: 1.3rem;
+	outline: none;
+}
+
+input[type="checkbox"] {
+	width: 1.5vw;
+	line-height: 1rem;
+}
+
+span {
+	font-size: 0.8rem;
+	padding-left: 0.5vw;
+}
+
+button[type="submit"] {
+	height: 6vh;
+	font-size: 1rem;
+	margin-top: 2vh;
+}
+}
+
+@media screen and (max-width: 1040px) and (orientation:landscape) {
+	.menu {
+		height: 12vh;
+		line-height: 12vh;
+		font-size: 1.5rem;
+}
+	.main-text {
+		margin: 0.1vh auto 7vh;
+		font-size: 2.5rem;
+}
+	.second-text {
+		font-size: 1.6rem;
+		margin-bottom: 8vh;
+}
 	.column-one {
-		width: 30%;
-	}
-	.content-container {
-		font-size: 4rem;
-		line-height: 4rem;
-		align-self: center;
-		align-items: center;
-		display: flex;
-		height: 70%;
-		width: 100%;
-	}
+	width: 40%;
+	height: 50%;
+}
+	.image {
+	justify-content: center;
+	background-image:contain;
+	margin: 8vh 0;
 
-	.column-two {
-		width: 50%;
-		font-size: 1.5rem;
-	}
-	input, textarea, button {
-		font-size: 1.5rem;
-	}
-
+}
+	input {
+		font-size: 2rem;
+		margin-bottom: 3vh;
+}
+	span {
+		font-size: 1.4rem;
+}
+	input[type="checkbox"] {
+		width: 3.5vw;
+}
+ 	button[type="submit"] {
+ 	height: 12vh;
+ 	margin-top: 4vh;
+ 	font-size: 1.5rem;
+}
+	.footer-container {
+ 	height: 12vh;
+ 	line-height: 12vh;
+ 	font-size: 1.5rem;
+ 	margin-top: 10vh;
+}
 }
