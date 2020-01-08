@@ -59,7 +59,7 @@ button[type="submit"] {
 	height: 7vh;
 	font-size: 1.5rem;
 	display: block;
-	margin: 2vh auto;
+	margin: 2vh auto 6vh;
 	background-color: black;
 	border: 1px solid black;
 	color: white;
