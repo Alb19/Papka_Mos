@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 html {
 	font-family: 'Poiret One', serif;
 }
@@ -34,11 +34,12 @@ li {
 a {
 	text-decoration: none;
 	color:  #000066;
+	font-weight: bolder;
 }
 .image {
 	height: 80vh;
 	width: 100%;
-	background-image: url(../img/image11.jpg);
+	background-image: url(../img/Image11.jpg);
 	background-size: cover;
 	position: relative;
 	/*background-position: center;*/
@@ -88,6 +89,7 @@ p {
 	padding: 1vw 0;
 	font-size: 1.3rem;
 	line-height: 1.5rem;
+	font-weight: bolder;
 }
 
 .image-two {
@@ -147,6 +149,7 @@ h2 {
 	background-color: #FF99FF;
 	display: block;
 	padding: 2vw 2vh;
+	font-weight: bolder;
 	/*border: 1px solid #FF99FF;*/
 }
 .footer {
@@ -212,7 +215,7 @@ h2 {
 	}
 	.image-writer {
 		width: 80%;
-		margin: 4vh auto 5vh;
+		margin: 4vh auto 3vh;
 	}
 	.quote-text {
 	margin: 0 auto 5vh;
@@ -226,7 +229,7 @@ h2 {
 	line-height: 3.5rem;
 }
 .copyright {
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 	.header {
 	display: flex;
@@ -235,7 +238,7 @@ h2 {
 	font-size: 2.5rem;
 }
 .footer {
-	font-size: 2.5rem;
+	font-size: 3rem;
 }
 }
 
