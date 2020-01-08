@@ -110,8 +110,8 @@ input[type="checkbox"] {
 	align-items: center;
 	font-size: 1rem;
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	position: fixed;
-	bottom: 0;
+	/*position: fixed;
+	bottom: 0;*/
 }
 
 
