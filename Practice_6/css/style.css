@@ -12,15 +12,14 @@ html {
     color: black;
 	/*color:  #000066;*/
 	text-transform: uppercase;
-	font-weight: bolder;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	letter-spacing: 1px;
 	padding-left: 2vw;
 	justify-content: space-between;
-	border: 2px solid #3CB371;
+	/*border: 2px solid #3CB371;*/
+	border: 1px solid transparent;
 }
 .menu {
-	font-weight: bolder;
 	font-size: 1.3rem;
 }
 .menu-container {
@@ -76,8 +75,8 @@ a {
 
 .text {
 	padding: 1vh 0 0 .5vw;
-	font-size: 1.5rem;
-	line-height: 1.7rem;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
 	/*font-weight: bolder;*/
 }
 
@@ -101,10 +100,11 @@ a {
 }
 h2 {
 	padding: 4vh 0 0 .5vw;
-	font-size: 1.2rem;
-	font-weight: bolder;
+	font-size: 1.3rem;
 	text-transform: uppercase;
-	color: #3CB371;
+	/*color: #3CB371;*/
+	color: black;
+
 }
 .third-part {
 	width: 80%;
@@ -149,13 +149,13 @@ h2 {
 	line-height: 8vh;
     padding-left: 3vw;
 	letter-spacing: 1px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-transform: uppercase;
-	font-weight: bolder;
 	color: black;
 	/*color:  #000066;*/
 	text-decoration: none;
-	border: 2px solid #3CB371;
+	/*border: 2px solid #3CB371;*/
+	border: 1px solid transparent;
 }
 
 .menu-container {
