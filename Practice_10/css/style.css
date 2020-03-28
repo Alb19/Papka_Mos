@@ -131,6 +131,9 @@ form {
 button[type="submit"] {
 	margin: 1.5vh auto 4vh;
 }
+span {
+	font-size: .8rem;
+}
 }
 
 @media screen and (max-width: 1024px) {
