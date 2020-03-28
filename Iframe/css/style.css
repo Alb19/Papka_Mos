@@ -1,0 +1,14 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
+body {background: white;
+color: #00008B;
+display: flex;}
+iframe {
+	margin:auto;
+}
+header {
+	font-family:Forum;
+	font-size: 2rem;
+	color: #00008B; 
+}
+.text

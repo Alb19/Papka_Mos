@@ -1,6 +1,9 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+body {
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
 header {
 	width: 100%;
 	height: 8vh;
@@ -12,7 +15,6 @@ header {
 	color: black;
 	align-items: center;
 	font-size: 1.5rem;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 }
 .menu-container, p, li {
@@ -28,7 +30,6 @@ a {
 .content-container {
 	width: 80%;
 	height: 7vh;
-	font-family: Montserrat, sans-serif;
 	font-size: 2.5rem;
 	line-height: 2.5rem;
 	display: block;
@@ -40,22 +41,23 @@ a {
 	box-sizing: border-box;
 }
 form {
-	width: 70%;
-	margin: 50px auto;
+	margin:5vh auto;
+}
+.personal {
+	margin-bottom: -4vh;
 }
 input {
 	height: 5vh;
-	width: 100%;
+	width: 80%;
+	margin: auto;
 	display: block;
 	border: 1px solid black;
 	color: black;
 	font-size: 2.5rem;
-	padding-left: 0.5rem;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 button[type="submit"] {
-	width: 100%;
+	width: 80%;
 	height: 7vh;
 	font-size: 1.5rem;
 	display: block;
@@ -63,38 +65,37 @@ button[type="submit"] {
 	background-color: black;
 	border: 1px solid black;
 	color: white;
-	font-weight: bolder;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	/*font-weight: bolder;*/
 }
 textarea {
 	height: 10vh;
-	width: 100%;
+	width: 80%;
+	margin: auto;
+	display: block;
 	border: 1px solid black;
 	color: black;
 	font-size: 2.5rem;
-	padding-left: 0.5rem;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
-label {
-	line-height: 2rem;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
 
+label {
+	margin-left: 4vw;
+	line-height: 2rem;
+	margin-left: 4vw;
 }
+
 span {
 	display: inline;
 	padding-left: 1vw;
-	padding-top: 3vh;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	padding-top: 7vh;
 	text-decoration: underline;
-	font-size: 0.9rem;
-	line-height: 1rem;
+	font-size: 1rem;
 }
 
 input[type="checkbox"] {
 	display: inline-block;
 	width: 4%;
 	vertical-align: middle;
-	line-height: 2.5rem;
+	margin-left: 4vw;
 }
 
 .footer-container {
@@ -109,9 +110,8 @@ input[type="checkbox"] {
 	color: black;
 	align-items: center;
 	font-size: 1rem;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	/*position: fixed;
-	bottom: 0;*/
+	position: fixed;
+	bottom: 0;
 }
 
 
@@ -129,7 +129,7 @@ form {
 	margin: 3vh auto 3vh;
 }
 button[type="submit"] {
-	margin: 1vh auto;
+	margin: 1.5vh auto 4vh;
 }
 }
 
@@ -138,13 +138,16 @@ button[type="submit"] {
 label {
 	font-size: 2.5rem;
 	line-height: 5rem;
+	margin-left: 10vw;
 } 
 span {
 	font-size: 1.7rem;
-	line-height: 1.7rem;
+	line-height: 2rem;
+	margin-left: 1vw;
 }
 input[type="checkbox"] {
-	width: 8%;
+	width: 6%;
+	margin-left: 10vw;
 }
 button[type="submit"] {
 	font-size: 2.5rem;
@@ -167,6 +170,7 @@ input {
 textarea {
 	height: 15vh;
 	font-size: 1.5rem;
+	margin-bottom: 2vh;
 }
 label, span {
 	font-size: 1.4rem;
@@ -177,7 +181,7 @@ input[type="checkbox"] {
 }
 button[type="submit"] {
 	height: 10vh;
-	margin: 3vh auto 3vh;
+	margin: 4vh auto 4vh;
 }
 header {
 	font-size: 2rem;

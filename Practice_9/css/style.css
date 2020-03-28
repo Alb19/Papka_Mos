@@ -7,11 +7,11 @@
 	line-height: 10vh;
 	display: block;
 	color: black;
-	border: 2px solid black;
+	border: 1.5px solid black;
 	text-transform: uppercase;
     padding-left: 2vw;
 	font-family: 'Noto Sans SC', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	margin: 0 0 5vh 0;
 	box-sizing: border-box;
 	justify-content: flex-start;
@@ -37,11 +37,11 @@
 	justify-content: center;
 	font-size:  1.5em;
 	line-height: 1.3em;
-    border: 2px solid black;
+    border: 1.5px solid black;
     box-sizing: border-box;
 	margin: 5vh 2.5vw 0vh 0;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
 }
 .item-two {
 	width: 40vw;
@@ -53,11 +53,11 @@
 	justify-content: center;
 	font-size:  1.5em;
 	line-height: 1.3em;
-	border: 2px solid black;
+	border: 1.5px solid black;
 	box-sizing: border-box;
 	margin: 5vh 0vw 0vh 0;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
 }
 .item-three {
 	font-family: 'Noto Sans SC', sans-serif;
@@ -67,13 +67,13 @@
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	border: 2px	solid black;
+	border: 1.5px solid black;
 	box-sizing: border-box;
 	width: 40vw;
 	height: 40vh;
 	margin: 5vh 2.5vw 0vh 0;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
 }
 .item-four {
 	width: 40vw;
@@ -86,17 +86,17 @@
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-    border: 2px solid black;
+    border: 1.5px solid black;
 	box-sizing: border-box;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
 }
 .footer {
 	width: 100%;
 	min-height: 10vh;
 	line-height: 10vh;
 	color: #F5F5F5;
-	border: 2px solid black;
+	border: 1.5px solid black;
 	font-family: 'Noto Sans SC', sans-serif;
 	font-size: 0.8em;
 	text-transform: uppercase;

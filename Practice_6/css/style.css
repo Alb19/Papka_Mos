@@ -54,9 +54,9 @@ a {
 .main-text {
 	width: 80%;
 	height: auto;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	letter-spacing: 1px;
-	line-height: 2rem;
+	line-height: 2.1rem;
 	color: black;
 	text-align: center;
 	margin: 12vh auto 14vh;
@@ -75,8 +75,8 @@ a {
 
 .text {
 	padding: 1vh 0 0 .5vw;
-	font-size: 1.3rem;
-	line-height: 1.5rem;
+	font-size: 1.4rem;
+	line-height: 1.9rem;
 	/*font-weight: bolder;*/
 }
 
@@ -104,10 +104,9 @@ h2 {
 	text-transform: uppercase;
 	/*color: #3CB371;*/
 	color: black;
-
 }
 .third-part {
-	width: 80%;
+	width: 60%;
 	height: auto;
 	background-color: #FF99FF;
 	margin: 12vh auto;
@@ -118,24 +117,27 @@ h2 {
 
 }
 .image-writer {
-	width: 28%;
-	height: 28vh;
+	width: 20%;
+	height: 20vh;
 	background-image: url(../img/image55.jpg);
 	background-size: cover;
 	display: block;
-	margin: 4vh 1.6vw 4vh 2vw;
+	margin-left: 1.3vw;
+	margin-right: .5vw;
+	/*margin: 4vh 1.3vw 4vh 2vw;*/
 
 }
 .quote-text {
 	width: 80%;
 	height: auto;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: 1px;
-	line-height: 2.5rem;
+	line-height: 2.1rem;
 	color: black;
 	/*color: #000066;*/
 	text-align: left;
-	margin: 3vh 3vw 3vh 0;
+	margin-right: .1vw;
+	/*margin: 3vh 3vw 3vh 0;*/
 	background-color: #FF99FF;
 	display: block;
 	padding: 2vw 2vh;
@@ -182,7 +184,7 @@ h2 {
 }
 	.main-text {
 	font-size: 3.7rem;
-	line-height: 4rem;
+	line-height: 5.2rem;
 	margin: 10vh auto;
 	text-align: left;
 }
@@ -196,28 +198,30 @@ h2 {
 	margin-bottom: 4vh;
 }
 	h2 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	/*padding: 40px 0 20px 20px;*/
 
 }
 	.third-part {
+		width: 80%;
 		margin: 9vh auto 10vh;
 		flex-direction: column;
 }
 	.image-writer {
 	width: 80%;
+	height: 35vh;
 	margin: 4vh auto 3vh;
 }
 	.quote-text {
 	margin: 0 auto 5vh;
-	font-size: 3rem;
-	line-height: 3.3rem;
+	font-size: 3.7rem;
+	line-height: 5.2rem;
 }
 
 	.text {
 	padding: 2vh 0;
 	font-size: 3.3rem;
-	line-height: 3.5rem;
+	line-height: 4rem;
 }
 	.copyright {
 	font-size: 2rem;
@@ -254,8 +258,8 @@ h2 {
 	/*color: #3CB371;*/
 }
 	.main-text {
-	font-size: 3rem;
-	line-height: 3.3rem;
+	font-size: 2.5rem;
+	line-height: 3.5rem;
 	text-align: left;
 }
 	h2 {
@@ -264,18 +268,22 @@ h2 {
 }
 	.text {
 	font-size: 2.3rem;
-	line-height: 2.5rem;
+	line-height: 3.2rem;
 	padding: 3vh 0 8vh;
+}
+.third-part {
+	width: 80%;
+	margin-bottom: 20vh;
 }
 	.image-writer {
 	width: 90%;
-	height: 70vh;
+	height: 75vh;
 	margin: 8vh 1.6vw 4vh 2vw;
 }
 	.quote-text {
 	width: 90%;
 	font-size: 2.5rem;
-	line-height: 3rem;
+	line-height: 3.5rem;
 	padding-left: 2vw;
 }
 	.copyright {
